@@ -6,6 +6,10 @@ export interface ApiResponseList {
     data:        User[];
     support:     Support;
 }
+export interface ApiResponseSingle {
+    data:        User;
+    support:     Support;
+}
 
 export interface User {
     id:         number;

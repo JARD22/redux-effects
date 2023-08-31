@@ -1,3 +1,10 @@
+<div class="alert alert-info"  role="alert" *ngIf="loading">
+  <h4 class="alert-heading">Loading...</h4>
+  <p>
+    <i class="fa fa-sync fa-spin fa-2x"></i>
+  </p>
+</div>
+
 <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col" *ngFor="let user of userList">
       <div class="card h-100">
